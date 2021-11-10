@@ -28,11 +28,11 @@ function fetchWeather()
 
         html_data+=`<div class="loc_name">${location_name}</div>
         <div class="date">${date}</div>
-        <div class="temp">Temp: ${temparature} °C </div>
-        <div class="right_div">
-        <div>${weather_type}<div>
-        <div>Feels Like:${feels} °C </div
-        <div>Humidity:${hum}%</div>
-        <div>Wind:${wint_speed} km/h</div></div>`
+        <div class="temp">Temp: ${temparature}°C </div>
+        <div>
+        <div class="data">Feels Like: ${feels}°C </div>
+        <div class="data">${weather_type}<div>
+        <div class="data">Humidity:${hum}%</div>
+        <div class="data">Wind:${wint_speed} km/h</div></div>`
         document.querySelector("#result").innerHTML=html_data
     }

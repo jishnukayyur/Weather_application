@@ -24,10 +24,6 @@ body
     display: inline-block;
     margin-left: 35%;
 }
-/* .data
-{
-    display: inline-block;
-} */
 .loc_name
 {
     margin-top: 3%;
@@ -47,4 +43,9 @@ body
 .date
 {
     font-size: x-large;
+}
+.data
+{
+    font-weight: 100;
+    color: black;
 }
