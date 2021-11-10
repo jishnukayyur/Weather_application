@@ -10,6 +10,10 @@ body
 {
     display: inline-block;
     margin-top: 15%;
+    margin-right: 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
 }
 .button
 {
