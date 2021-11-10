@@ -6,15 +6,21 @@ body
     background-attachment: fixed;
     background-size: cover;
 }
-.textbox
-{
-    display: inline-block;
-    margin-top: 15%;
-    margin-right: 3%;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 100%;
+h1{
+    text-align: center;
+    color: coral;
+    text-decoration: underline black;
+    font-size: xxx-large;
+    font-weight: 500;
+
+    
 }
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: xx-large;
+      font-weight: 300;
+    }
+  }
 .button
 {
     margin-left: 2%;
