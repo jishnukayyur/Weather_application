@@ -1,0 +1,46 @@
+body
+{
+    background-color: aqua;
+    background-image:url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.textbox
+{
+    display: inline-block;
+    margin-top: 15%;
+}
+.button
+{
+    margin-top: 15%;
+}
+.result
+{
+    display: inline-block;
+    margin-left: 35%;
+}
+/* .data
+{
+    display: inline-block;
+} */
+.loc_name
+{
+    margin-top: 3%;
+    font-size: xxx-large;
+    font-family: sans-serif;
+}
+.temp
+{
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.right_div
+{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+.date
+{
+    font-size: x-large;
+}
