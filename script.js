@@ -26,15 +26,6 @@ function fetchWeather()
 
         let html_data=``;
 
-        // html_data+=`<div class="loc_name">${location_name}</div>
-        // <div class="date">${date}</div>
-        // <div class="temp">Temp: ${temparature}°C </div>
-        // <div>
-        // <div class="data">Feels Like: ${feels}°C </div>
-        // <div class="data">${weather_type}<div>
-        // <div class="data">Humidity:${hum}%</div>
-        // <div class="data">Wind:${wint_speed} km/h</div></div>`
-
         html_data=`<div class="card main cards" style="width: 18rem;">
         <div class="card-body">
           <h2 class="card-title">${location_name}</h2>
