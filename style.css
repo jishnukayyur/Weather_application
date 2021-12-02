@@ -34,28 +34,14 @@ h1{
     display: inline-block;
     margin-left: 35%;
 }
-.loc_name
-{
-    margin-top: 3%;
-    font-size: xxx-large;
-    font-family: sans-serif;
-}
-.temp
-{
-    font-size: xx-large;
-    font-family: sans-serif;
-}
 .right_div
 {
     margin-left: 25%;
     margin-top: -10%;
 }
-.date
+.cards
 {
-    font-size: x-large;
-}
-.data
-{
-    font-weight: 100;
-    color: black;
+    color:white;
+    margin-top: 5%;
+    background: rgba(0,0,0,0.5);
 }
